@@ -31,6 +31,7 @@ p {
 }
 
 /* header styles */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -64,6 +65,7 @@ header nav ul li {
 }
 
 /* hero styles */
+
 .hero {
     height: 800px;
     width: 100%;
