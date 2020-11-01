@@ -13,3 +13,9 @@ The following changes were made to style.css:
 * Consolidated numerous redundant rulesets that were identical for different classes, reducing the file length by some 60 lines.
 * Reorganized order of rulesets to match the flow of the site's content and HTML file.
 * Added comments delineating different sections of the page.
+
+https://gavin-asay.github.io/Week1challenge/
+
+https://github.com/gavin-asay/Week1challenge
+
+![Screenshot of horiseon page on GitHub Pages](./assets/images/horiseon_app.jpg)
