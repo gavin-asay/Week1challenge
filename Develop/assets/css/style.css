@@ -46,16 +46,19 @@ header span {
     color: #d9dcd6;
 }
 
-header ul {
+header nav {
+    float: right;
+}
+
+header nav ul {
     list-style-type: none;
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-header ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
