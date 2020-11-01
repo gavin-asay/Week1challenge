@@ -1,3 +1,5 @@
+/* page-wide styles */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,13 +8,33 @@
 
 body {
     background-color: #d9dcd6;
+    color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* header styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
 header h1 {
@@ -38,15 +60,7 @@ header ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* hero styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,21 +71,32 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* styles for main content section */
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+}
+
+.content article img {
+    max-height: 200px;
+}
+
+.content article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* benefits sidebar styles */
 
 .benefits {
     margin-right: 20px;
@@ -82,7 +107,6 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    color: #ffffff;
 }
 
 .benefits article {
@@ -100,23 +124,7 @@ p {
     max-width: 150px;
 }
 
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content article img {
-    max-height: 200px;
-}
-
-.content article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* footer styles */
 
 footer {
     padding: 30px;
